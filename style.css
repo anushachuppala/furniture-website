@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #f4f4f4;
+  --gold: #f1b555;
+  --antique-brown: #9b281a;
+}
+
+/* basic styling */
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1450px;
+  margin: auto;
+  padding-inline: 2rem;
+}
+
+/* Header part */
+.navbar {
+  height: 13vh;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-icons {
+  gap: 1.5rem;
+}
+
+.icon {
+  font-size: 1.1rem;
+}
+
+/* sections part */
+
+.hero-section {
+  background: gold;
+}
