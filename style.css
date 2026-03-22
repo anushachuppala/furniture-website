@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Jost", sans-serif;
+  /* border: 0.1rem solid goldenrod; */
 }
 
 :root {
@@ -40,6 +41,23 @@ li {
   padding-inline: 2rem;
 }
 
+.golden-bg {
+  background: var(--gold);
+}
+
+.brown-bg {
+  background: var(--antique-brown);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mt {
+  margin-top: 3.5rem;
+}
+
 /* Header part */
 .navbar {
   height: 13vh;
@@ -60,5 +78,53 @@ li {
 /* sections part */
 
 .hero-section {
-  background: gold;
+  height: calc(100vh - 13vh);
+  justify-content: center;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  left: 200px;
+  top: 0;
+  width: 25rem;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  background: var(--grey);
+  z-index: -1;
+}
+
+.h1-heading {
+  font-size: 9rem;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+span {
+  font-weight: bold;
+}
+
+.big-para {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+  font-size: 0.9rem;
+  color: var(--white);
+  text-transform: uppercase;
+  border-radius: 5rem;
+  display: block;
+  justify-self: flex-end;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: var(--black);
+}
+
+.hero-image {
+  width: 50vw;
 }
