@@ -62,6 +62,10 @@ img {
   padding-block: 3.5rem;
 }
 
+.gap {
+  gap: 2rem;
+}
+
 /* Header part */
 .navbar {
   height: 13vh;
@@ -133,9 +137,46 @@ span {
   width: 50vw;
 }
 
-/*  */
+/* card section*/
 .h3-heading {
   font-size: 2.1rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.category-card {
+  flex: 1;
+  background: var(--grey);
+  height: 30rem;
+  border-radius: 1.5rem;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.h5-heading {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.simple-icon {
+  font-size: 1.1rem;
+  color: var(--white);
+  width: 35px;
+  border-radius: 5rem;
+  text-align: center;
+  line-height: 35px;
+}
+
+.category-card .flex {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  padding-inline: 1.5rem;
+}
+
+.category-card:hover .simple-icon {
+  background: var(--gold);
+  transform: rotateZ(-50deg) scale(1.15);
 }
