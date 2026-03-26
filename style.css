@@ -167,6 +167,7 @@ span {
   border-radius: 5rem;
   text-align: center;
   line-height: 35px;
+  transition: 0.3s ease-in-out;
 }
 
 .category-card .flex {
@@ -178,7 +179,7 @@ span {
 
 .category-card:hover .simple-icon {
   background: var(--gold);
-  transform: rotateZ(-50deg) scale(1.15);
+  transform: rotateZ(-50deg);
 }
 
 /* middle section */
@@ -202,4 +203,40 @@ span {
 .bed-image {
   width: 75vw;
   margin-inline: auto;
+  position: relative;
+}
+.h6-heading {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.small-para {
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  line-height: 100%;
+  margin-bottom: 0.7rem;
+}
+.simple-icon:hover {
+  scale: 1.15;
+}
+
+.price {
+  color: var(--antique-brown);
+}
+
+del {
+  color: var(--black);
+}
+
+.bed-details {
+  background: rgba(240, 240, 240, 0.4);
+  max-width: 240px;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  padding: 1.3rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(10px);
 }
