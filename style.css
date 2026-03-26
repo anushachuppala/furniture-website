@@ -180,3 +180,26 @@ span {
   background: var(--gold);
   transform: rotateZ(-50deg) scale(1.15);
 }
+
+/* middle section */
+
+.h2-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 100%;
+  max-width: 880px;
+}
+
+.gradient-txt {
+  background: linear-gradient(90deg, var(--gold), #4e1806);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  margin: auto;
+}
+
+.bed-image {
+  width: 75vw;
+  margin-inline: auto;
+}
