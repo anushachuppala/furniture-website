@@ -240,3 +240,18 @@ del {
   border-radius: 1.5rem;
   backdrop-filter: blur(10px);
 }
+
+/* another section */
+
+.brown-txt {
+  color: var(--antique-brown);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.avg-para {
+  font-size: 1.06rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: capitalize;
+  max-width: 600px;
+}
