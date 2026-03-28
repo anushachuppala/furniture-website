@@ -264,6 +264,8 @@ del {
   height: 20rem;
   background: var(--grey);
   border-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .product-image img {
@@ -280,4 +282,20 @@ small {
   text-transform: uppercase;
   margin-top: 1rem;
   display: block;
+}
+
+.product-image .btn {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 160px;
+}
+
+.product-card:hover .product-image .btn {
+  bottom: 50px;
+}
+
+.center-btn {
+  justify-self: center;
 }
