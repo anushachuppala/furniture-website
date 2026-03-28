@@ -147,6 +147,7 @@ span {
 
 .category-card {
   flex: 1;
+  flex-basis: 300px;
   background: var(--grey);
   height: 30rem;
   border-radius: 1.5rem;
